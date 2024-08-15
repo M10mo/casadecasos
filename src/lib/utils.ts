@@ -43,5 +43,6 @@ export function constructMetadata({
       images: [image],
     },
     icons,
+    metadataBase: new URL('https://casadecasos.vercel.app/')
   }
 }
