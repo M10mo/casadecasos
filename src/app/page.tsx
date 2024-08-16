@@ -16,7 +16,7 @@ export default function Home() {
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
-                <img src="/phone-logo.png" className="w-full" />
+                <img src="/logo.jpg" className="w-full" />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 Your Image on a{" "}
@@ -228,31 +228,34 @@ export default function Home() {
             </div>
           </div>
 
-
           <ul className="mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit">
             <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5"/>
+              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
               High-quality silicone material
             </li>
             <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5"/>
-              2 year print warranty
+              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />2 year
+              print warranty
             </li>
             <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5"/>
+              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
               Compatible with wireless charging
             </li>
             <li className="w-fit">
-              <Check className="h-5 w-5 text-green-600 inline mr-1.5"/>
+              <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
               Waterproof
             </li>
 
-
             <div className="flex justify-center">
-              <Link className={buttonVariants({
-                size: 'lg',
-                className:'mx-auto mt-8'
-              })} href='/configure/upload'>Create your case now! <ArrowRight className="h-4 w-4 ml-1.5" /></Link>
+              <Link
+                className={buttonVariants({
+                  size: "lg",
+                  className: "mx-auto mt-8",
+                })}
+                href="/configure/upload"
+              >
+                Create your case now! <ArrowRight className="h-4 w-4 ml-1.5" />
+              </Link>
             </div>
           </ul>
         </MaxWidthWrapper>
